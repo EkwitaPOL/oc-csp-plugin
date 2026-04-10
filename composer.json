@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.1",
-        "offline/laravel-csp": "dev-master"
+        "spatie/laravel-csp": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -19,5 +19,11 @@
             "name": "Tobias Kündig",
             "email": "tobias@offline.ch"
         }
-    ]
+    ],
+    "repositories": {
+        "laravel-csp": {
+            "type": "git",
+            "url": "git@github.com:EkwitaPOL/laravel-csp.git"
+        }
+    }
 }
